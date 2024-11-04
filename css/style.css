@@ -1,0 +1,596 @@
+
+
+
+body
+{
+    background-color: #F5F5F5;
+}
+
+
+.start-5
+{
+    left: 6%;
+}
+.nav-item
+{
+    margin-right: 15px;
+    transition: all 0.5;
+    position: relative;
+}
+
+.nav-item ::before 
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;  
+    width: 0%;
+    height: 2px; 
+    background-color: white;
+    transition: width 0.5s ease; 
+}
+  
+.nav-item :hover::before 
+{
+    width: 100%;
+}
+
+
+.home ::before 
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;  
+    width: 100%;
+    height: 2px; 
+    background-color: white;
+    transition: width 0.3s ease; 
+}
+
+.about ::before 
+{
+
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -14px;  
+    width: 15%;
+    height: 3px; 
+    background-color: #0d6efd;;
+    transition: width 0.3s ease; 
+}
+.head-line ::before 
+{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 41.5%;
+    bottom: -14px;  
+    width: 60px;
+    height: 4px; 
+    background-color: #0d6efd;;
+    transition: width 0.3s ease; 
+}
+.bg-image
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.fs-0
+{
+    font-size: 75px;
+}
+
+.w-pro
+{
+    width: 99%;
+}
+.anime h2::after
+{
+    content: "|";
+    animation-name: text;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+.ps-A
+{
+    padding-left: 38px;
+}
+.start-image
+{
+    left: 40px;
+}
+.fs-d
+{
+    font-size: 15px;
+    color: #4e4e4e ;
+    font-weight: 400;
+}
+.w-image
+{
+    width: 150px;
+}
+.fs-li
+{
+    position: relative;
+    right: 20px;
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: light;
+}
+.fs-li span
+{
+    font-size: 18px;
+    color: black;
+}
+.progress
+{
+    
+    border-radius: 0;
+    height: 12px;
+    margin-bottom: 20px;
+}
+
+
+
+.w-txt
+{
+    width: 91%;
+    color: #4e4e4e;
+}
+
+.w-txt-icon
+{
+    width: 98%;
+    color: #4e4e4e;
+}
+.text-c
+{
+    color: #4e4e4e;
+   
+}
+
+
+.border-icon
+{
+    border: 11px solid #0078FF   ;
+    height: 120px;
+    width: 120px;
+}
+
+.border-icon2
+{
+    border: 9px solid #CDE1F8   ;
+    height: 80px;
+    width: 80px;
+    color: white;
+    
+}
+
+
+.w-bg-fixed
+{
+    height: 100px;
+    width: 100px;
+    background-color: #0078FF;
+   
+}
+
+.bg-img
+{
+    background-image:linear-gradient(rgba(0, 120, 255,0.7),rgba(0, 120, 255,0.7)), url('../images/counters-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-block: 100px;
+}
+.bg-img-2
+{
+    background-image:linear-gradient(rgba(0, 120, 255,0.7),rgba(0, 120, 255,0.7)), url('../images/overlay-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-block: 100px;
+}
+
+
+
+span
+{
+    color: #0078ff;
+}
+
+.pos
+{
+    top: 100px;
+}
+
+.pos-4
+{
+    top: 200px;
+}
+.pos-5
+{
+    top: 250px;
+}
+
+.pos-6
+{
+    top: 350px;
+}
+
+.pos-7
+{
+    top: 400px;
+}
+
+.temp
+{
+    margin-bottom: 500px;
+}
+.icon
+{
+    transition: 0.5s;
+}
+
+.fs-icon
+{
+    font-size: 35px;
+}
+
+.w-card
+{
+    width:100% ;
+}
+
+.card:hover .border-icon
+{
+    color: white;
+    background-color: #0078FF;
+    border-color: #CDE1F8;
+    transition: 0.5s;
+}
+
+.btn
+{
+    margin-top: 10px;
+    border: 4px solid #0078FF;
+    transition: all 0.5s;
+}
+
+.btn:hover 
+{
+    color: white;
+    background-color: #3393FF;
+    border-color: #CDE1F8;
+    transition: all 0.5s;
+}
+
+.form-control
+{
+    font-weight: 400;
+    padding-block: 10px;
+}
+.border-icon3 
+{
+    
+    border: 3px solid #0078FF   ;
+    height: 50px;
+    width: 50px;
+}
+.border-icon3 i
+{
+    color: black;
+   
+}
+.border-icon3:hover
+{
+    
+    color: white;
+    background-color: #0078FF;
+    border-color: #CDE1F8;
+    transition: 0.5s;
+}
+.border-icon3:hover i
+{
+    
+    color: white;
+    transition: 0.5s;
+}
+
+
+.card
+{
+    
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.head-pos
+{
+    top: 80px;
+    
+}
+.fs-header
+{
+    font-size: 50px;
+}
+.card2
+{
+    background-color: transparent;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.0);
+}
+a span
+{
+    top: 30%;
+    right: 30%;
+
+}
+.fs-txt2
+{
+    font-size: 12px;
+
+}
+.fs-icon-plus
+{
+    font-size: 40px;
+
+}
+.img-card-parent
+{
+    overflow: hidden;
+}
+.img-card img
+{
+    transition: 0.7s;
+}
+.img-card:hover .img-card-parent img
+{
+    transform: scale(1.4);
+    transition: 0.7s;
+}
+.img-card
+{
+    cursor: pointer;
+}
+.img-card2 img
+{
+    cursor: pointer;
+}
+.pos-img
+{
+
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+
+
+.w-txt-slider
+{
+    width: 91%;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    
+}
+
+.w-card-img-3
+{
+    width: 21%;
+    margin-left: 5px;
+}
+
+
+.pos-img-parent
+{
+    
+    padding-bottom: 40px;
+}
+
+.pos-mini-card
+{
+    position: relative;
+    bottom: 10px;
+    padding-block: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+    color: white;
+    background-color: #0078FF;
+    
+}
+
+
+.fa-clock
+{
+    color: #4e4e4e;
+    position: relative;
+    top: 1px;
+
+}
+
+.post-date
+{
+    color: #4e4e4e;
+    position: relative;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.img-card2 .card-footer a
+{
+    color: black;
+    transition: all 0.5s;
+
+}
+
+.footer-conent i
+{
+    color: #0078FF ;
+}
+
+
+.img-card2 .card-footer .image:hover a
+{
+    color:#0078FF ;
+    transition: all 0.5s;
+}
+
+.txt-img
+{
+    position: absolute;
+    left: 30%;
+    width: 100%;
+}
+
+.fs-h6
+{
+    font-size: 12px;
+}
+
+.pos-form
+{
+    top: 10%;
+}
+
+.p-button
+{
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-block: 6px ;
+
+}
+.pos-form-col
+{
+    position: relative;
+    left: 2%;
+}
+
+.det
+{
+    color: white;
+    background-color: #0062D3;
+    position: relative;
+    line-height: 10px;
+    padding-block: 40px;
+    top: 50%;
+}
+
+.back-to-top
+{
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #0078FF;
+}
+@keyframes text {
+
+    0%{content: "F|";}
+    1%{content: "Fr|";}
+    2%{content: "Fre|";}
+    3%{content: "Free|";}
+    4%{content: "Freel|";}
+    5%{content: "Freela|";}
+    6%{content: "Freelan|";}
+    7%{content: "Freelanc|";}
+    8%{content: "Freelance|";}
+    9%{content: "Freelancer|";}
+    12%{content: "Freelancer|";}
+    13%{content: "Freelance|";}
+    14%{content: "Freelanc|";}
+    15%{content: "Freelan|";}
+    16%{content: "Freela|";}
+    17%{content: "Freel|";}
+    18%{content: "Free|";}
+    19%{content: "Fre|";}
+    20%{content: "Fr|";}
+    21%{content: "F|";}
+    22%{content: "|";}
+    
+
+
+    27%{content: "D|";}
+    28%{content: "De|";}
+    29%{content: "Des|";}
+    30%{content: "Desi|";}
+    31%{content: "Desig|";}
+    32%{content: "Design|";}
+    33%{content: "Designe|";}
+    34%{content: "Designer|";}
+    37%{content: "Designer|";}
+    38%{content: "Designe|";}
+    39%{content: "Design|";}
+    40%{content: "Desig|";}
+    41%{content: "Desi|";}
+    42%{content: "Des|";}
+    43%{content: "Des|";}
+    44%{content: "De|";}
+    45%{content: "D|";}
+    46%{content: "|";}
+    
+    51% { content: "D|"; }
+    52% { content: "De|"; }
+    53% { content: "Dev|"; }
+    54% { content: "Deve|"; }
+    55% { content: "Devel|"; }
+    56% { content: "Develop|"; }
+    57% { content: "Develope|"; }
+    58% { content: "Developer|"; }
+    59% { content: "Developer|"; }
+    62% { content: "Develope|"; }
+    63% { content: "Develop|"; }
+    64% { content: "Devel|"; }
+    65% { content: "Deve|"; }
+    66% { content: "Dev|"; }
+    67% { content: "De|"; }
+    68% { content: "D|"; }
+    69% { content: "|"; }
+    
+    
+    74% { content: "P|"; }
+    75% { content: "Ph|"; }
+    76% { content: "Pho|"; }
+    77% { content: "Phot|"; }
+    78% { content: "Photo|"; }
+    79% { content: "Photog|"; }
+    80% { content: "Photogr|"; }
+    81% { content: "Photogra|"; }
+    82% { content: "Photograp|"; }
+    83% { content: "Photograph|"; }
+    84% { content: "Photographe|"; }
+    85% { content: "Photographer|"; }
+    86% { content: "Photographer|"; }
+    87% { content: "Photographe|"; }
+    88% { content: "Photograph|"; }
+    89% { content: "Photograp|"; }
+    90% { content: "Photogra|"; }
+    91% { content: "Photogr|"; }
+    92% { content: "Photog|"; }
+    93% { content: "Phot|"; }
+    94% { content: "Pho|"; }
+    95% { content: "Ph|"; }
+    96% { content: "P|"; }
+    97% { content: "|"; }
+    98% { content: "|"; }
+    99% { content: "|"; }
+    100% { content: "|"; }
+
+    
+}
